@@ -1,0 +1,151 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header{
+  background: #1D539E;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  height: 400px;
+}
+
+.header h1{
+  font-size: 3.5em;
+}
+
+/* ---- MAIN ---- */
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+/* ---- CARDS ---- */
+.card{
+  background: #ffffff;
+  max-width: 355px;
+  height: 470px;
+  border-radius: 8px;
+  padding: 30px 32px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  top: -90px;
+}
+
+.card h2 > span{
+  color: rgb(70, 70, 71);
+  font-size: 1.2rem;
+}
+
+.card > .paragrafoComAborda{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #00000063;
+}
+
+.card p{
+  padding: 10px;
+  color: dimgray;
+}
+
+.checkd p::before{
+  content: '✅';
+  margin-right: 8px;
+}
+
+.cardMaior{
+  background: #ffffff;
+  max-width: 355px;
+  height: 490px;
+  border-radius: 8px;
+  padding: 30px 32px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  top: -100px;
+}
+
+.cardMaior h2 > span{
+  color: rgb(70, 70, 71);
+  font-size: 1.2rem;
+}
+
+.cardMaior > .paragrafoComAborda{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #00000063;
+}
+
+.cardMaior p{
+  padding: 10px;
+  color: dimgray;
+}
+
+.check p::before{
+  content: '✅';
+  margin-right: 8px;
+}
+
+.basicoEpopular{
+  width: 379px;
+  height: 76px;
+  padding: 20px;
+  position: relative;
+  left: -32px;
+  top: -31px;
+  z-index: 5;
+}
+
+.cardMaior > .basicoEpopular{
+  background: #FFCC29;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.basicoEpopular > span{
+  color: #1D539E;
+  font-size: 1.25rem;
+}
+
+.cardMaior .btn-popular{
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid #1D539E;
+  background-color: #1D539E;
+  color: white;
+  font-weight: bold;
+}
+
+/* ---- BUTTONS ---- */
+.btn-normal{
+  background: white;
+  border: 1px solid #1D539E;
+  color: #1D539E;
+  padding: 10px 150px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: none;
+  text-align: center;
+  position: relative;
+  bottom: -158px;
+}
+
+.btnDoPopular{
+  background: #1D539E;
+  border: 1px solid #1D539E;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 150px;
+  border-radius: 8px;
+  box-shadow: none;
+  text-align: center;
+  position: relative;
+  bottom: -122px;
+}
