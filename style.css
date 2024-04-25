@@ -27,7 +27,6 @@
   position: relative;
 }
 
-/* ---- CARDS ---- */
 .card{
   background: #ffffff;
   max-width: 355px;
@@ -37,6 +36,11 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
   top: -90px;
+  transition: 0.2s;
+}
+
+.card:hover{
+  transform: scale(1.05);
 }
 
 .card h2 > span{
@@ -62,12 +66,17 @@
 .cardMaior{
   background: #ffffff;
   max-width: 355px;
-  height: 490px;
+  height: 470px;
   border-radius: 8px;
   padding: 30px 32px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
-  top: -100px;
+  top: -90px;
+  transition: 0.2s;
+}
+
+.cardMaior:hover{
+  transform: scale(1.05);
 }
 
 .cardMaior h2 > span{
@@ -135,7 +144,7 @@
   text-align: center;
   position: relative;
   bottom: -158px;
-  transition: ;
+  transition: 0.2s;
 }
 
 .btn-normal:hover{
@@ -155,5 +164,13 @@
   box-shadow: none;
   text-align: center;
   position: relative;
-  bottom: -122px;
+  bottom: -101px;
+  transition: 0.2s;
+}
+
+.btnDoPopular:hover{
+  background: #1D539E;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.02); 
 }
