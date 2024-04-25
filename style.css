@@ -135,12 +135,20 @@
   text-align: center;
   position: relative;
   bottom: -158px;
+  transition: ;
+}
+
+.btn-normal:hover{
+  background: #1D539E;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.02); 
 }
 
 .btnDoPopular{
-  background: #1D539E;
+  background: white;
   border: 1px solid #1D539E;
-  color: #ffffff;
+  color: #1D539E;
   font-weight: bold;
   padding: 10px 150px;
   border-radius: 8px;
