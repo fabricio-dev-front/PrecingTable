@@ -18,7 +18,6 @@
   font-size: 3.5em;
 }
 
-/* ---- MAIN ---- */
 .main{
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +39,7 @@
 }
 
 .card:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .card h2 > span{
@@ -76,7 +75,7 @@
 }
 
 .cardMaior:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .cardMaior h2 > span{
@@ -127,12 +126,19 @@
   border-radius: 8px;
   box-shadow: none;
   border: 1px solid #1D539E;
-  background-color: #1D539E;
-  color: white;
+  background-color: white;
+  color: #1D539E;
   font-weight: bold;
+  transition: 0.2s;
 }
 
-/* ---- BUTTONS ---- */
+.btn-popular:hover{
+  background: #1D539E;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
 .btn-normal{
   background: white;
   border: 1px solid #1D539E;
